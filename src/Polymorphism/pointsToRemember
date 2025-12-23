@@ -1,0 +1,3 @@
+Overloading = compiler + reference type
+Overriding = JVM + object type
+

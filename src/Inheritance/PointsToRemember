@@ -14,3 +14,13 @@ Parent has shout() method and child has shout() method and if you do like Parent
 
 “In Java, variables and static methods are resolved using the reference type,
 while overridden instance methods are executed based on the actual object type at runtime.”
+
+############################################################################################################
+
+Interfaces
+
+1) interfaces can have only static final meaning by defult the variables are static and final
+
+2) interfaces cannot be instantiated hence we cannot create constructors for interfaces
+
+
