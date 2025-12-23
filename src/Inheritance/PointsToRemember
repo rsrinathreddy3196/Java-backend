@@ -1,0 +1,16 @@
+Parent p = new Child();
+
+1) Always the right hand side object will be called but the reference 'p' will decide what members are accessible at compile time.
+2) Parent constructor is always executed first followed by child constructor.
+3) If both parent and child class have same method (overriding) then always the method of the object which is created is called.
+
+for example
+
+Parent has shout() method and child has shout() method and if you do like Parent p = new Child() then always the method of child will be called.
+
+
+
+**Golden rule ***
+
+“In Java, variables and static methods are resolved using the reference type,
+while overridden instance methods are executed based on the actual object type at runtime.”
