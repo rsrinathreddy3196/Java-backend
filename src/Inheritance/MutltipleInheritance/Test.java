@@ -13,5 +13,7 @@ public class Test {
         Vehicle v1 = new Car();
         v.Engine();
 
+        Vehicle.gear();
+
     }
 }

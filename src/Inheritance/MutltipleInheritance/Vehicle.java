@@ -10,4 +10,8 @@ public interface Vehicle {
         System.out.println("I am vehicle engine");
     }
 
+    static void gear(){
+        System.out.println("gear up and down");
+    }
+
 }

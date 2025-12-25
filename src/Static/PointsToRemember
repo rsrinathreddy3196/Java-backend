@@ -1,0 +1,8 @@
+1) Static methods can directly access only static members because they are associated with the class,
+not with any specific object. Instance members can be accessed only through an object reference.
+
+2) constructor cannot be declared as static.
+
+3) static methods cannot be overridden.
+
+4) static block is used when you want to load some configuration and database connections.
