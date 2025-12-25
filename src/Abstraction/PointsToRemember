@@ -1,0 +1,41 @@
+Abstract classes
+
+1) Can contain both abstract and concrete (normal) methods.
+
+2) Can have instance variables, static variables, and final variables.
+
+3) Can have constructors, which are invoked during subclass object creation to initialize state.
+
+4) Supports partial abstraction.
+
+5) A class can extend only one abstract class.
+
+6) Methods can have any access modifier (public, protected, package-private).
+
+7)Used when classes are closely related and share common state or behavior.
+
+Interfaces
+
+1) Supports full abstraction (before Java 8); partial abstraction after Java 8.
+
+2) Can have:
+
+    abstract methods
+
+    default methods
+
+    static methods
+
+3) Cannot have constructors because:
+
+    No instance variables
+
+    Does not participate in object creation
+
+    Variables are implicitly public static final (constants).
+
+4) A class can implement multiple interfaces (supports multiple inheritance).
+
+    Methods are implicitly public.
+
+5) Used to define capabilities / contracts and enable loose coupling.

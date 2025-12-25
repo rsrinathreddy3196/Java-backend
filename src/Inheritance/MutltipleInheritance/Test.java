@@ -10,5 +10,8 @@ public class Test {
         FourWheeler fw = new Car();
         fw.start();
 
+        Vehicle v1 = new Car();
+        v.Engine();
+
     }
 }
